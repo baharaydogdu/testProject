@@ -15,7 +15,7 @@ public class Softtech1 {
 		
 		for(int i=A; i<=B; i++) {
 			if(isWholeSquare(i))
-				count += 2;
+				count += 1;
 		}
 		
 		return count;
